@@ -11,13 +11,13 @@
 
    //en caso de opcion 1 haz esto, si no...
     switch (opcion) {
-      case "1":$("img").attr("src","enero.jpg");
+      case "0":$("img").attr("src","enero.jpg");
         break;
-      case "2":$("img").attr("src","febrero.jpg");
+      case "1":$("img").attr("src","febrero.jpg");
         break;
-     case "3":$("img").attr("src","marzo.jpg");
+     case "2":$("img").attr("src","marzo.jpg");
        break;
-     case "0":$("img").attr("src","icono.jpg");
+     case "_":$("img").attr("src","icono.jpg");
 
        break;
     }
